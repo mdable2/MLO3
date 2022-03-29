@@ -40,8 +40,19 @@ Some commands we will use in this lesson when it comes to `conda` and `pip`:
 
 ## Environment Set Up
 1. Install [Anaconda](https://www.anaconda.com/products/individual).
-2. Install [Git](https://git-scm.com/downloads).
-3. Install [VS Code](https://code.visualstudio.com/download).
+
+If planning to use WSL, please install Anaconda in WSL. To do so, follow these steps in WSL:
+
+```
+> cd /home/{user}
+> wget https://repo.continuum.io/archive/Anaconda3-2021.11-Linux-x86_64.sh
+> bash Anaconda3-2021.11-Linux-x86_64.sh
+```
+
+Go through the prompts and select yes when asked to continue. Then after installation select yes to initalize conda. Lastly, close and reopen your prompt - you should now be able to run `conda`.
+
+3. Install [Git](https://git-scm.com/downloads).
+4. Install [VS Code](https://code.visualstudio.com/download).
 
 ## Github Set Up
 4. If you don't already have one, make an account on [Github](https://github.com/). Then login and navigate to the top right user icon, click it, go to repositories, 
