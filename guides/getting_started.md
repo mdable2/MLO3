@@ -151,3 +151,8 @@ Through all this you might need to set up your Git credentials if you haven't al
 One last note is that this was done pushing straight to the `main` branch which is usually bad practice as we would usually want to create a `feature branch` first and do a merge request. For now, it is okay the way we did it. If you are unfamiliar with what a `feature branch` is or a `merge request`...bring it up now!
 
 20. Navigate to your Github repo code page in your browser. You should see the code changes we made live after you push. 
+
+## Troubleshooting
+* for Mac users terminal by default does not run code (getting started - step#7). Found a fix: Launch Visual Studio Code.
+Press Cmd ⌘ + Shift ⇧ + P to open the Command Palette.
+Type in shell command and select the Shell command: Install ‘code’ command in PATH to install it
