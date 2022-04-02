@@ -40,6 +40,17 @@ Some commands we will use in this lesson when it comes to `conda` and `pip`:
 
 ## Environment Set Up
 1. Install [Anaconda](https://www.anaconda.com/products/individual).
+
+If planning to use WSL, please install Anaconda in WSL. To do so, follow these steps in WSL:
+
+```
+> cd /home/{user}
+> wget https://repo.continuum.io/archive/Anaconda3-2021.11-Linux-x86_64.sh
+> bash Anaconda3-2021.11-Linux-x86_64.sh
+```
+
+Go through the prompts and select yes when asked to continue. Then after installation select yes to initalize conda. Lastly, close and reopen your prompt - you should now be able to run `conda`.
+
 2. Install [Git](https://git-scm.com/downloads).
 3. Install [VS Code](https://code.visualstudio.com/download).
 
@@ -140,3 +151,8 @@ Through all this you might need to set up your Git credentials if you haven't al
 One last note is that this was done pushing straight to the `main` branch which is usually bad practice as we would usually want to create a `feature branch` first and do a merge request. For now, it is okay the way we did it. If you are unfamiliar with what a `feature branch` is or a `merge request`...bring it up now!
 
 20. Navigate to your Github repo code page in your browser. You should see the code changes we made live after you push. 
+
+## Troubleshooting
+* for Mac users terminal by default does not run code (getting started - step#7). Found a fix: Launch Visual Studio Code.
+Press Cmd ⌘ + Shift ⇧ + P to open the Command Palette.
+Type in shell command and select the Shell command: Install ‘code’ command in PATH to install it
